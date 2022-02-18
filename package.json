@@ -12,7 +12,9 @@
     "cors": "2.8.5",
     "cross-env": "7.0.3",
     "express": "4.17.1",
-    "morgan": "1.10.0"
+    "fs": "^0.0.1-security",
+    "morgan": "1.10.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "eslint": "7.19.0",
@@ -21,6 +23,19 @@
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "5.2.0",
-    "nodemon": "2.0.15"
-  }
+    "nodemon": "^2.0.15"
+  },
+  "description": "Выполните форк этого репозитория для выполнения домашних заданий (2-6) Форк создаст репозиторий на вашем http://github.com",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlada-code3/nodejs-homework-restApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlada-code3/nodejs-homework-restApi/issues"
+  },
+  "homepage": "https://github.com/Vlada-code3/nodejs-homework-restApi#readme"
 }
